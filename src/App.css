@@ -1,0 +1,138 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+.list-item {
+  display: flex;
+  flex-direction: row;
+  border: 1px solid rgb(87, 87, 209);
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px;
+  width: 32rem;
+}
+body{
+  background-color:blanchedalmond;
+}
+.app{
+  border: 1px solid grey;
+  width: 600px;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  border-radius: 2rem;
+  overflow-y: auto;
+  overflow-x: hidden;
+  background-color:beige;
+}
+.title {
+  font-size: 32px;
+  margin-top: 2rem;
+  border: 1px solid rgb(78, 117, 93);
+  border-radius: 20px;
+  height: 4rem;
+  width: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 9rem;
+  color: white;
+  background-color: rgb(109, 169, 109);
+  font-family: cursive;
+}
+.main-input {
+  width: 400px;
+  height: 40px;
+  border-radius: 10px;
+  border: 0.1px solid black;
+  
+}
+.input-entry {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-button {
+  margin-left: 1rem;
+  border: 1px solid rebeccapurple;
+  background-color: rgb(162, 125, 200);
+  color: white;
+}
+.list{
+  display: flex;
+  justify-content: center;
+  flex-direction: column; 
+  align-items: center;
+  gap: 14px;  
+}
+
+.completeFalse{
+  display: flex;
+  flex-direction: row;
+  width: 600px;
+  justify-content: space-between;
+  text-align: center;
+  
+}
+.item-value{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.main-buttons{
+  display: flex;
+  gap: 10px;
+}
+.main-buttons-2{
+  display: flex;
+  gap: 10px;
+  margin-right: 8rem;
+}
+.complete-input{
+  width: 350px;
+  height: 40px;
+  background-color: transparent;
+  border: 1px solid black
+}
+.complete-btn{
+  margin-left: 2rem;
+}
